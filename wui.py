@@ -30,7 +30,7 @@ st.write("Seed 수집 차시 : ", n, ", 코어 수 : ", cores)
 
 options = ['Upload seed file', 'Insert seed']
 captions = ['Seed file 지정', '사용자가 seed 입력']
-opt = st.radio('Input seed ptions', index=0, horizontal=True, options = options, captions = ['Seed file 지정', '사용자가 seed 입력'])
+opt = st.radio('Input seed options', index=0, horizontal=True, options = options, captions = ['Seed file 지정', '사용자가 seed 입력'])
 
 
 if opt == options[0]:
